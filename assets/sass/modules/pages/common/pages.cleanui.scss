@@ -4,9 +4,22 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 /*  DEFAULT PAGES: LOGIN, REGISTER, LOCKSCREEN  */
 
+$shadow-color: rgba(0,0,0,0.5);
+$shadow-size: 100rem;
+
 .cat__pages__login {
     background-size: cover;
     background-color: $gray-lighten-more;
+
+    &--center {
+        -webkit-box-shadow: inset 0 0 $shadow-size $shadow-size $shadow-color;
+        -moz-box-shadow: inset 0 0 $shadow-size $shadow-size $shadow-color;
+        box-shadow: inset 0 0 $shadow-size $shadow-size $shadow-color;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
     &--fullscreen {
         position: fixed;
