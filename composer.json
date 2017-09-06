@@ -1,0 +1,27 @@
+{
+  "name": "rdehnhardt/theme-admin",
+  "description": "Admin theme for laravel",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Renato Dehnhardt",
+      "email": "renatotkd@gmail.com"
+    }
+  ],
+  "require": {
+    "rdehnhardt/html": "~5.5",
+    "illuminate/view": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rdehnhardt\\Theme\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Rdehnhardt\\Theme\\ThemeServiceProvider"
+      ]
+    }
+  }
+}
