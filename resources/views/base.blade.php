@@ -1,10 +1,10 @@
 @extends('theme::empty')
 
 @section('body')
-    <div id="app">
-        @include('theme::components.menu.left')
-        @include('theme::components.menu.top')
+    @include('theme::components.menu.left')
+    @include('theme::components.menu.top')
 
+    <div id="app">
         <div class="cat__content">
             @yield('content')
         </div>

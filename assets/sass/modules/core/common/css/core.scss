@@ -17,8 +17,8 @@ html {
 
 body {
     font-family: $base__font-family;
-    color: $text-darken-more;
     background: $gray-lighten-more;
+    color: $text-darken-more;
 
     @media (min-width: $md-min-width) {
         overflow-x: hidden;
@@ -29,6 +29,10 @@ html, body, #app {
     height: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
+}
+
+body {
+    padding-top: 4.64rem !important;
 }
 
 a {
