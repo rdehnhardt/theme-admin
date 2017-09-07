@@ -26,11 +26,11 @@ body {
 
         // logo styles
         &__logo {
-            width: rem(200);
             height: rem(65);
             display: inline-block;
             padding: rem(14) rem(18);
             margin-right: rem(20);
+
             img {
                 max-height: rem(35);
             }

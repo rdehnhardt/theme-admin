@@ -98,12 +98,10 @@
             display: inline-block;
             background: $black;
             padding: rem(14) rem(18);
-            a {
-                line-height: rem(33);
-            }
+
             img {
                 max-height: rem(35);
-                max-width: 90%;
+                max-width: 100%;
                 vertical-align: bottom;
             }
         }
