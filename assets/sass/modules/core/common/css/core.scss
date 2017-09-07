@@ -31,10 +31,6 @@ html, body, #app {
     margin: 0 !important;
 }
 
-body {
-    padding-top: 4.64rem !important;
-}
-
 a {
     text-decoration: none;
     color: $text;
@@ -63,6 +59,7 @@ input[type=text], input[type=password], input[type=email], textarea {
 .cat {
     &__content {
         padding: rem(20);
+        padding-top: 6.00rem !important;
 
         @media (max-width: $sm-max-width) {
             padding: rem(20) 0;

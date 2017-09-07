@@ -8,5 +8,7 @@
         <div class="cat__content">
             @yield('content')
         </div>
+
+        @include('theme::flash')
     </div>
 @endsection
