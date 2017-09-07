@@ -1,7 +1,7 @@
 <div class="cat__top-bar">
     <div class="cat__top-bar__left">
         <div class="cat__top-bar__logo">
-            <a href="dashboards-alpha.html">@stack('logo')</a>
+            <img src="@stack('logo')" class="img-fluid" />
         </div>
 
         @stack('top-left-actions')
