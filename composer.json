@@ -11,7 +11,7 @@
   "require": {
     "rdehnhardt/html": "~5.5",
     "illuminate/view": "5.*",
-    "laracasts/flash": "5.5.*"
+    "laracasts/flash": "^3.0"
   },
   "autoload": {
     "psr-4": {
