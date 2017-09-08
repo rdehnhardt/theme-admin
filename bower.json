@@ -41,6 +41,7 @@
     "chart.js": "2.5.0",
     "dropify": "0.2.1",
     "jquery-ui": "1.12.1",
-    "codemirror": "^5.29.0"
+    "codemirror": "^5.29.0",
+    "jquery-maskmoney": "^3.0.2"
   }
 }
