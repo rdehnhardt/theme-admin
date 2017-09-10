@@ -9,6 +9,5 @@ require("../vendors/by_bower/autosize/dist/autosize")
 require("../vendors/by_bower/bootstrap-sweetalert/dist/sweetalert")
 require("../vendors/by_bower/remarkable-bootstrap-notify/dist/bootstrap-notify")
 require("../vendors/by_bower/jquery-mask-plugin/dist/jquery.mask")
-require("../vendors/by_bower/jquery-maskmoney/dist/jquery.maskMoney.js")
 
 require("./menu-left")
