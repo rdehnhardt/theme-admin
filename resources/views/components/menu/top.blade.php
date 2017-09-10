@@ -14,7 +14,7 @@
             <div class="dropdown cat__top-bar__avatar-dropdown">
                 <a href="javascript: void(0);" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                     <span class="cat__top-bar__avatar" href="javascript:void(0);">
-                        @stack('avatar')
+                        <img src="@stack('avatar')" />
                     </span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="" role="menu">
