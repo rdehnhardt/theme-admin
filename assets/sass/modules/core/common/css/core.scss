@@ -744,3 +744,15 @@ pre {
         transform: rotate(359deg);
     }
 }
+
+
+.has-error {
+    .form-control {
+        border-color: red;
+        color: red;
+    }
+
+    .help-block {
+        color: red;
+    }
+}
